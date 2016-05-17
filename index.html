@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+</head>
+<body>
+    <h1>Quiz App</h1>
+    
+    <form id="quiz-form" method="POST">
+        <h2 id="question-text"></h2>
+        <div id="choices">
+            <p><input type="radio" name="choice" value="A" required>A</p>
+            <p><input type="radio" name="choice" value="B" required>B</p>
+            <p><input type="radio" name="choice" value="C" required>C</p>
+            <p><input type="radio" name="choice" value="D" required>D</p>    
+        </div>
+        
+        <input type="submit" class="submit" name="step" value="Previous">
+        <input type="submit" class="submit" name="step" value="Next">
+    </form>
+    
+    <script src="quiz.js"></script>
+</body>
+</html>

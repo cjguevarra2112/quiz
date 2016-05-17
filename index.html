@@ -7,19 +7,30 @@
 <body>
     <h1>Quiz App</h1>
     
+    <form method="POST" id="quiz-form">
+        <h2 id="question-number"></h2>
+        <h2 id="question-text"></h2>
+        <div id="choices"></div>
+        <input type="submit" class="step" name="step" value="Previous"/>
+        <input type="submit" class="step" name="step" value="Next">
+    </form>
+    
+    <!--
     <form id="quiz-form" method="POST">
         <h2 id="question-text"></h2>
+        
         <div id="choices">
             <p><input type="radio" name="choice" value="A" required>A</p>
             <p><input type="radio" name="choice" value="B" required>B</p>
             <p><input type="radio" name="choice" value="C" required>C</p>
-            <p><input type="radio" name="choice" value="D" required>D</p>    
+            <p><input type="radio" name="choice" value="D" required>D</p> 
         </div>
         
         <input type="submit" class="submit" name="step" value="Previous">
         <input type="submit" class="submit" name="step" value="Next">
     </form>
+    -->
     
-    <script src="quiz.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
